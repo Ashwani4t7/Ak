@@ -1,0 +1,46 @@
+@media (max-width:570px) {
+    .logo-sub-div1>p {
+        font-size: 30px;
+        margin-top: 5px;
+    }
+    #my-intro2 {
+        font-size: 40px;
+    }
+    #my-intro1 {
+        font-size: 30px;
+    }
+    #my-intro4 {
+        font-size: 40px;
+    }
+    #my-intro5 {
+        font-size: 30px;
+    }
+    #my-intro3 {
+        font-size: 50px;
+    }
+    .intro>h1 {
+        font-size: 50px;
+    }
+    .sub-div {
+        flex-direction: column;
+        margin-left: -20px;
+        justify-content: left;
+        padding: 0px;
+    }
+    .font-size p {
+        font-size: 18px;
+    }
+    .content {
+        height: 500px;
+    }
+    .subcontent4 {
+        flex-direction: column;
+    }
+    .card {
+        height: 100px;
+        width: 150px;
+    }
+    .margin-top {
+        margin-top: 150px;
+    }
+}

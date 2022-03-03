@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Syncopate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+.intro {
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    background-color: black;
+    transition: all 0.5s ease;
+    /* display: none; */
+}
+
+.my-intro {
+    color: red;
+    font-family: 'Kufam', sans-serif;
+}
+
+.my-intro,
+.intro>h1 {
+    font-family: 'Kufam', sans-serif;
+    font-size: 100px;
+}
+
+.intro>h1:nth-child(1) {
+    color: rgba(255, 255, 255, 0.397);
+}
+
+.intro>h1:nth-child(2) {
+    color: rgba(255, 255, 255, 0.616);
+}
+
+.intro>h1:nth-child(4) {
+    color: rgba(255, 255, 255, 0.616);
+}
+
+.intro>h1:nth-child(5) {
+    color: rgba(255, 255, 255, 0.397);
+}
+
+#my-intro2 {
+    font-size: 90px;
+    color: rgba(255, 0, 0, 0.616);
+}
+
+#my-intro1 {
+    font-size: 80px;
+    color: rgba(255, 0, 0, 0.397);
+}
+
+#my-intro4 {
+    font-size: 90px;
+    color: rgba(255, 0, 0, 0.616);
+}
+
+#my-intro5 {
+    font-size: 80px;
+    color: rgba(255, 0, 0, 0.397);
+}
+
+.main-section {
+    height: 100vh;
+}
+
+.logo-sub-div1 {
+    display: flex;
+    margin-left: 50px;
+    /* margin-top: 50px; */
+}
+
+.logo-sub-div1>.logo>img {
+    height: 50px;
+    width: 60px;
+    filter: contrast(2);
+}
+
+#div1 {
+    z-index: 9;
+    background-color: black;
+    position: fixed;
+    display: inline-block;
+    top: 0px;
+    height: 70px;
+    width: 100%;
+}
+
+.color-red {
+    color: rgb(204, 37, 37);
+    text-shadow: 2px 2px 5px rgb(255, 0, 0), 4px 4px 5px rgb(0, 0, 0);
+}
+
+.color-black {
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 2px 5px rgb(255, 0, 0), 4px 4px 5px rgb(0, 0, 0), 0px 0px 5px red;
+}
+
+.services {
+    position: relative;
+    top: -30px;
+}
+
+.heading {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 60px;
+}
+
+.logo-sub-div1>p {
+    font-size: 35px;
+    padding: 5px;
+    font-family: 'Syncopate', sans-serif;
+}
+
+.project {
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    align-items: left;
+    justify-content: center;
+    height: 200px;
+}
+
+.project h1 {
+    font-size: 80px;
+}
+
+.sub-div {
+    z-index: 9;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+    padding: 10px;
+}
+
+.content {
+    /* border: 2px solid red; */
+    height: 100vh;
+    width: 100%;
+}
+
+.content p {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Syncopate', sans-serif;
+}
+
+.contentbp1 {
+    margin-top: 450px;
+}
+
+#content1 {
+    display: flex;
+    flex-direction: column;
+    background: no-repeat center center/cover url(../images/homebg.png);
+    padding: 60px;
+    margin-top: 60px;
+    align-items: center;
+    overflow: hidden;
+}
+
+#content2 {
+    background: no-repeat center center/cover url(../images/ab.jpg);
+    filter: contrast(1.5);
+}
+
+.subcontent3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.divcontent3 {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#content3 {
+    background: no-repeat center center/cover url(../images/services.png);
+    filter: contrast(1.5);
+}
+
+#content4 {
+    background: no-repeat center center/cover url(../images/portfolio.jpg);
+}
+
+#content5 {
+    background: no-repeat center center/cover url(../images/f1.png);
+    filter: contrast(4);
+}
+
+.intro-content {
+    /* font-family: 'Syncopate', sans-serif; */
+    font-family: 'Permanent Marker', cursive;
+    font-size: 5000px;
+    text-shadow: 2px 2px 5px red, 4px 4px 5px rgb(15, 15, 15);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: max-content;
+}
+
+h2 {
+    text-align: center;
+}
+
+.font-size {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: black;
+    margin-top: -10px;
+}
+
+.font-size p {
+    font-size: 25px;
+}
+
+.font-size p a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.font-size p:hover a {
+    transform: scale(0.8);
+    color: red;
+}
+
+.subcontent4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.divcontent4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subcontent5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.divcontent5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 5px;
+    /* border: 2px solid red; */
+    height: max-content;
+    /* box-shadow: 2px 2px 5px red, 4px 4px 10px rgb(255, 123, 0); */
+    width: max-content;
+    margin: 5px;
+}
+
+.card h2 a {
+    font-family: 'Permanent Marker', cursive;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 0px 0px 10px rgb(255, 0, 0), 0px 0px 20px rgb(255, 0, 0);
+}
+
+.card:hover h2 a {
+    animation: card 0.8s ease 0s infinite;
+}
+
+@keyframes card {
+    0% {
+        text-shadow: 0px 0px 5px red;
+    }
+    33% {
+        text-shadow: 0px 0px 5px red, 0px 0px 10px rgb(255, 123, 0);
+    }
+    66% {
+        text-shadow: 0px 0px 5px red, 0px 0px 10px #FE8101, 0px 0px 15px #FC4E08;
+    }
+    99% {
+        text-shadow: 0px 0px 5px red, 0px 0px 10px #FE8101, 0px 0px 15px #FC4E08, 0px 0px 20px rgb(255, 60, 0);
+    }
+}
